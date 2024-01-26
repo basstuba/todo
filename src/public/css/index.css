@@ -26,18 +26,66 @@
 .create-form__item {
     width: 70%;
     margin-left: 0;
+    display: flex;
 }
 .create-form__item-input {
     border: 1px solid #ccc;
-    width: 100%;
+    width: 60%;
     height: 50px;
     border-radius: 3px;
+    display: inline-block;
+}
+.create-form__item-select {
+    border: 1px solid #ccc;
+    width: 30%;
+    height: 50px;
+    border-radius: 3px;
+    display: inline-block;
+    margin: 0 20px;
 }
 .create-form__button {
     width: 20%;
     margin-right: 0;
 }
 .create-form__button-submit {
+    background: #000;
+    color: #fff;
+    width: 200px;
+    height: 50px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+}
+.search-form {
+    display: flex;
+    justify-content: space-between;
+}
+.search-form__item {
+    width: 70%;
+    margin-left: 0;
+    display: flex;
+}
+.search-form__item-input {
+    border: 1px solid #ccc;
+    width: 60%;
+    height: 50px;
+    border-radius: 3px;
+    display: inline-block;
+}
+.search-form__item-select {
+    border: 1px solid #ccc;
+    width: 30%;
+    height: 50px;
+    border-radius: 3px;
+    display: inline-block;
+    margin: 0 20px;
+}
+.search-form__button {
+    width: 20%;
+    margin-right: 0;
+}
+.search-form__button-submit {
     background: #000;
     color: #fff;
     width: 200px;

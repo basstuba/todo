@@ -5,10 +5,19 @@
     margin: 0 auto;
     padding: 20px 15px;
 }
+.header-utilities {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 .header__logo {
     color: #fff;
     font-weight: bold;
     font-size: larger;
+    text-decoration: none;
+}
+.header-nav__link {
+    color: #fff;
     text-decoration: none;
 }
 
